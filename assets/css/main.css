@@ -1,0 +1,26 @@
+.menu a {
+	color: black;
+}
+.menu a:hover {
+	text-decoration: none;
+}
+.menu-item {
+	height: 220px;
+	border-radius: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	-webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.08);
+	-moz-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.08);
+	box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.08);
+	transition: .3s;
+}
+.menu-item:hover {
+	-webkit-box-shadow: 0px 5px 14px 1px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 5px 14px 1px rgba(0,0,0,0.15);
+	box-shadow: 0px 5px 14px 1px rgba(0,0,0,0.15);
+	transform: translateY(-5px);
+}
+.menu-item p {
+	padding-top: 5rem;
+	font-size: 1.4rem;
+}

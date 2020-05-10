@@ -8,8 +8,8 @@
 ?>
 
 <header>
-	<div class="jumbotron mb-0">
-		<h1 class="text-center"><?php echo $title ?></h1>
+	<div class="jumbotron mb-0" style="background-image: url('assets/img/header.png'); background-size: cover; background-repeat: no-repeat; ">
+		<h1 class="text-center" style="background-color: rgb(0,0,0); background-color: rgba(0,0,0, 0.4); color:white; padding-top: 10px; padding-bottom: 10px; border: 3px solid #f1f1f1;"><?php echo $title ?></h1>
 	</div>
 </header>
 <nav class="navbar navbar-expand-lg bg-dark">
